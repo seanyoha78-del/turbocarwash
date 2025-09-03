@@ -1,0 +1,98 @@
+
+/*******************************/
+/******** Location CSS *********/
+/*******************************/
+.location {
+  position: relative;
+  width: 100%;
+  padding: 45px 0;
+}
+
+.location .location-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.location .location-item i {
+  padding-top: 3px;
+  font-size: 30px;
+  color: #E81C2E;
+}
+
+.location .location-text {
+  padding-left: 15px;
+}
+
+.location .location-text h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.location .location-text p {
+  margin-bottom: 5px;
+}
+
+.location .location-text p strong {
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.location .location-form {
+  padding: 45px 30px;
+  background: #E81C2E;
+  border-radius: 5px;
+}
+
+.location .location-form h3 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.location .location-form .control-group {
+  margin-bottom: 15px;
+}
+
+.location .location-form .form-control {
+  height: 45px;
+  color: #ffffff;
+  padding: 0 15px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background: transparent;
+}
+
+.location .location-form textarea.form-control {
+  height: 120px;
+  padding: 15px;
+}
+
+.location .location-form .form-control::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.location .location-form .form-control:-ms-input-placeholder,
+.location .location-form .form-control::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.location .location-form .btn.btn-custom {
+  width: 100%;
+  color: #E81C2E;
+  background: #ffffff;
+  box-shadow: inset 0 0 0 0 #202C45;
+}
+
+.location .location-form .btn.btn-custom:hover {
+  color: #ffffff;
+  background: #E81C2E;
+  box-shadow: inset 400px 0 0 0 #202C45;
+}
+
+@media(min-width: 576px) and (max-width: 991.89px) {
+  .location .location-form .btn.btn-custom:hover {
+      box-shadow: inset 650px 0 0 0 #202C45;
+  }
+}

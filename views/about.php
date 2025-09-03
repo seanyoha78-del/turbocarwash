@@ -23,7 +23,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="about-img">
-                            <img src="../img/car2.jpg" alt="Image">
+                            <img src="../img/car5.jpg" alt="Image">
                         </div>
                     </div>
                     <div class="col-lg-6">

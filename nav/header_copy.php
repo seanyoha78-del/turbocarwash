@@ -89,12 +89,12 @@
 
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
-                            <a href="../views/home.php" class="nav-item nav-link active">Home</a>
+                            <a href="header_copy.php" class="nav-item nav-link active">Home</a>
                             <a href="../views/about.php" class="nav-item nav-link">About</a>
                             <a href="../views/services.php" class="nav-item nav-link">services</a>
-                            <a href="../views/WashingPoints.php" class="nav-item nav-link">Washing Points</a>
-                            <a href="../views/contact.php" class="nav-item nav-link">Contact</a>
-                            <a href="../views/login.php" class="nav-item nav-link">admin</a>
+                            <a href="location.php" class="nav-item nav-link">Washing Points</a>
+                            <a href="contact.php" class="nav-item nav-link">Contact</a>
+                            <a href="header.php" class="nav-item nav-link">Sign-out</a>
                         </div>
                         <div class="ml-auto">
                             <a class="btn btn-custom" href="contact.php" style="border-radius: 50%;">Get Appointment</a>
@@ -104,6 +104,8 @@
             </div>
         </div>
         <!-- Nav Bar End -->
+
+<?php include '../views/home.php'; ?>
 
 
 

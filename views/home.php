@@ -1,4 +1,4 @@
-<?php include '../nav/header.php'; ?>
+<?php include '../nav/header.php' ?>
 
 <!-- Bootstrap 5 -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +20,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="about-img">
-                            <img src="../img/car1.jpg" alt="Image" height="500px">
+                            <img src="../img/car4.jpg" alt="Image" height="500px">
                         </div>
                     </div>
                     <div class="col-lg-6">

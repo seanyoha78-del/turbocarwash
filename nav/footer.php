@@ -37,7 +37,6 @@
 </div>
 <div class="modal fade" id="myModal" role="dialog" style="display: none;" aria-hidden="true">
     <div class="modal-dialog">
-
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
