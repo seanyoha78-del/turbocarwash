@@ -26,7 +26,6 @@
                             <h2>Car Washing & Care Points</h2>
                         </div>
                         <div class="row">
-                              
                             <div class="col-md-6">
                                 <div class="location-item">
                                     <i class="fa fa-map-marker-alt"></i>

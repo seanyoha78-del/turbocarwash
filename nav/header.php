@@ -94,7 +94,7 @@
                             <a href="../views/services.php" class="nav-item nav-link">services</a>
                             <a href="../views/WashingPoints.php" class="nav-item nav-link">Washing Points</a>
                             <a href="../views/contact.php" class="nav-item nav-link">Contact</a>
-                            <a href="../views/login.php" class="nav-item nav-link">admin</a>
+                            <a href="../login/admin_login.php" class="nav-item nav-link">admin</a>
                         </div>
                         <div class="ml-auto">
                             <a class="btn btn-custom" href="contact.php" style="border-radius: 50%;">Get Appointment</a>

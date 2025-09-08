@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../assets/dist/css/footer.css">
 <!-- Footer Start -->
 <div class="footer">
-    <div class="container">
+    <div class="container const">
         <div class="row">
             <div class="col-lg-6 col-md-6">
                 <div class="footer-contact">

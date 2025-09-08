@@ -1,0 +1,132 @@
+    #img1 {
+        border-radius: 20px;
+        width: 400px;
+        height: 300px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: transparent;
+    }
+
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin-bottom: 25px;
+    }
+
+    .breadcrumb {
+        background-color: white;
+        border-radius: 30px;
+        margin-bottom: 3%;
+    }
+
+    .breadcrumb {
+        font-family: Arial, sans-serif;
+        background: black;
+        padding: 10px 15px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+
+    .breadcrumb a {
+        color: #007bff;
+        /* Blue for Home */
+        text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+        text-decoration: underline;
+    }
+
+    .breadcrumb span {
+        color: #dc3545;
+        /* Red for Manage All Bookings */
+        margin-left: 5px;
+    }
+
+    .breadcrumb .separator {
+        color: white;
+        margin: 0 8px;
+    }
+
+    /*******************************/
+    /********* washing Point *******/
+    /*******************************/
+    
+    .form-container {
+        background: #fff;
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 1, 0.6);
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    h2 {
+        color: #00aaff;
+        font-weight: normal;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        color: black;
+    }
+
+    .form-group label {
+        flex: 0 0 200px;
+        font-weight: bold;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        background-color: white;
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        font-size: 14px;
+        color: black;
+    }
+
+    .form-actions {
+        margin-left: 200px;
+    }
+
+    .form-actions button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 2px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .btn-add {
+        background: #00c4cc;
+        color: #fff;
+    }
+
+    .btn-reset {
+        background: #e0e0e0;
+        color: #333;
+    }
+    
+    .boxes {
+        background-color: white;
+        color: black;
+        width: 740px;
+        height: 42px;
+    }
+
+    #letters {
+        font-size: 50px;
+        color: white;
+    }

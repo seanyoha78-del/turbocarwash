@@ -43,7 +43,7 @@
                                 </button>
                         </div>
                         <div class="card-body"> 
-                            <center><p class="pont">Exterior Washing</p><br><br></center>
+                            <center><p class="pont">EXTERIOR WASHING</p><br><br></center>
                             <div class="d-flex justify-content-between align-items-center"> 
                                 <div class="btn-group"> 
                                     <p></p> 
