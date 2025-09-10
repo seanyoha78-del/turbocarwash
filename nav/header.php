@@ -89,9 +89,9 @@
 
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
-                            <a href="../views/home.php" class="nav-item nav-link active">Home</a>
+                            <a href="../page/home.php" class="nav-item nav-link active">Home</a>
                             <a href="../views/about.php" class="nav-item nav-link">About</a>
-                            <a href="../views/services.php" class="nav-item nav-link">services</a>
+                            <a href="../page/services.php" class="nav-item nav-link">services</a>
                             <a href="../views/WashingPoints.php" class="nav-item nav-link">Washing Points</a>
                             <a href="../views/contact.php" class="nav-item nav-link">Contact</a>
                             <a href="../login/admin_login.php" class="nav-item nav-link">admin</a>

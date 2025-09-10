@@ -4,7 +4,7 @@
 
 <div class="col-md-10">
     <div class="animated-gradient-2 text">
-        <p style="margin-top: 3%;"><i><b>TURBO WASH EXPRESS MANAGEMENT SYSTEM</b></i></p>
+        <p><i><b>TURBO WASH EXPRESS MANAGEMENT SYSTEM</b></i></p>
     </div>
 
     <hr>
