@@ -10,30 +10,30 @@
     <hr>
 
     <div class="breadcrumb">
-        <a href="dashboard.php">Home</a>
+        <a href="../page/admin.php">Home</a>
         <span class="separator">›</span>
     </div>
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="container">
             <img src="../img/booking.jpg" alt="Snow" id="img1">
-            <a class="btn centered" href="Bookings.php">Total Bookings</a>
+            <a class="btn centered" href="../page/admin.php?subpage=booking">Total Bookings</a>
         </div>
         <div class="container">
             <img src="../img/newbook.jpg" alt="Snow" id="img1">
-            <a class="btn centered" href="new_booking.php">New Bookings</a>
+            <a class="btn centered" href="../page/admin.php?subpage=newbooking">New Bookings</a>
         </div>
         <div class="container">
             <img src="../img/complete.jpg" alt="Snow" id="img1">
-            <a class="btn centered" href="complete_booking.php">Completed Bookings</a>
+            <a class="btn centered" href="../page/admin.php?subpage=completebooking">Completed Bookings</a>
         </div>
         <div class="container">
             <img src="../img/enquiries.jpg" alt="Snow" id="img1">
-            <a class="btn centered" href="enquiries.php">Enquiries</a>
+            <a class="btn centered" href="../page/admin.php?subpage=inquireis">Enquiries</a>
         </div>
         <div class="container">
             <img src="../img/points.jpg" alt="Snow" id="img1">
-            <a class="btn centered" href="washing_points.php">Washing Points</a>
+            <a class="btn centered" href="../page/admin.php?subpage=washingpoint">Washing Points</a>
         </div>
     </div>
 

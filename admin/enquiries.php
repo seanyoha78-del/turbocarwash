@@ -10,7 +10,7 @@
     <hr>
 
     <div class="breadcrumb">
-        <a href="dashboard.php">Home</a>
+        <a href="../page/admin.php">Home</a>
         <span class="separator">›</span>
         <span>Manage Enquiries</span>
     </div>

@@ -15,6 +15,7 @@
     <meta name="theme-color" content="#712cf9">
     <link href="sidebars.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/dist/css/header.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- lined-icons -->
     <link rel="stylesheet" href="css/icon-font.min.css" type='text/css' />

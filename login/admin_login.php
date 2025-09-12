@@ -122,15 +122,15 @@
         <!-- Right Side -->
         <div class="right">
         <center><h2>Please Sign-in</h2></center>
-        <form action="../admin/dashboard.php" method="post">
+        <form action="../page/authenticate.php?function=login" method="post">
             <div class="form-group">
-            <input type="text" placeholder="Username">
+            <input type="email" name="email" placeholder="Email">
             </div>
             <div class="form-group">
-            <input type="password" placeholder="Password">
+            <input type="password" name="password" placeholder="Password">
             </div>
             <button type="submit" class="btn" style="margin-bottom: 5%;">Login</button>
-            <a class="home" href="../views/home.php" >Back to Home</a>
+            <a class="home" href="../page/home.php" >Back to Home</a>
         </form>
         </div>
     </div>

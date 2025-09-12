@@ -115,18 +115,21 @@
         <!-- Right Side -->
         <div class="right">
         <h2>Registration Form</h2>
-        <form action="login.php" method="post">
+        <form action="../page/customer.php?function=register" method="post">
             <div class="form-group">
-            <input type="text" placeholder="Full Name: ex Lindsey Wilson">
+            <input type="text" name="fname" placeholder="Full Name">
             </div>
             <div class="form-group">
-            <input type="email" placeholder="Example@email.com">
+            <input type="email" name="email" placeholder="Example@email.com">
             </div>
             <div class="form-group">
-            <input type="password" placeholder="Password">
+            <input type="integer" name="contact" placeholder="Contact No.">
             </div>
             <div class="form-group">
-            <input type="password" placeholder="Confirm Password">
+            <input type="password" name="pass" placeholder="Password">
+            </div>
+            <div class="form-group">
+            <input type="password" name="cpass" placeholder="Confirm Password">
             </div>
             <div class="checkbox">
             <input type="checkbox"> By signing up, you agree to the 

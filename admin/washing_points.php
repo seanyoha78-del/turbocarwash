@@ -1,4 +1,12 @@
-<?php include '../nav/admin_header.php'; ?>
+<?php include '../nav/admin_header.php';
+
+// ✅ Database connection
+$conn = mysqli_connect("localhost", "root", "", "carwash_db");
+
+if (!$conn) {
+    die("Database connection failed: " . mysqli_connect_error());
+}
+?>
 
 <link rel="stylesheet" href="../assets/dist/css/admin_header.css">
 
@@ -10,33 +18,74 @@
     <hr>
 
     <div class="breadcrumb">
-        <a href="dashboard.php">Home</a>
+        <a href="../page/admin.php">Home</a>
         <span class="separator">›</span>
         <span>Manage Car Washing Points</span>
     </div>
 
-    <center><div class="col-md-10" style="width: 90%;">
-                <!-- Contact Messages Table -->
-                <div class="card shadow-sm">
-                    <div class="card-header bg-dark text-white">
-                        <h5 class="mb-0">Manage Car Washing Points</h5>
-                    </div>
-                    <div class="card-body table-container">
+    <center>
+        <div class="col-md-10" style="width: 90%;">
+            <!-- Contact Messages Table -->
+            <div class="card shadow-sm">
+                <div class="card-header bg-dark text-white">
+                    <h5 class="mb-0">Manage Car Washing Points</h5>
+                </div>
+                <div class="card-body table-container">
+                    <?php
+                    $result = mysqli_query($conn, "SELECT * FROM appointments ORDER BY created_at DESC");
+                    if (mysqli_num_rows($result) > 0):
+                        $counter = 1;
+                    ?>
                         <table class="table table-bordered table-hover">
-                                <thead class="table-light">
-                                    <tr style="text-align: center;">
-                                        <th>id</th>
-                                        <th>Washing Point Name</th>
-                                        <th>Address</th>
-                                        <th>Contact No.</th>
-                                        <th>Creation Date</th>
-                                        <th>Action</th>
+                            <thead class="table-light">
+                                <tr style="text-align: center;">
+                                    <th>#</th>
+                                    <th>Washing Point Name</th>
+                                    <th>Address</th>
+                                    <th>Contact No.</th>
+                                    <th>Creation Date</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                // Mapping arrays
+                                $packages = [
+                                    1 => "BASIC CLEANING",
+                                    2 => "PREMIUM CLEANING",
+                                    3 => "COMPLEX CLEANING"
+                                ];
+
+                                $washingPoints = [
+                                    1 => "ABC Street New Delhi 1110001",
+                                    2 => "A3263 Sector 1- Noida 201301",
+                                    3 => "H911 Indira Puram Ghaziabad 201017 UP",
+                                    6 => "Pawing, Palo, Leyte",
+                                    7 => "Pater St. Tacloban City",
+                                    9 => "Government Center, Palo Leyte, Sample"
+                                ];
+                                while ($row = mysqli_fetch_assoc($result)) : ?>
+                                    <tr>
+                                        <td><?= $counter++ ?></td>
+                                        <td><?= $packages[$row['package_type']] ?? 'Unknown' ?></td>
+                                        <td><?= $washingPoints[$row['washing_point']] ?? 'Unknown' ?></td>
+                                        <td><?= $row['Contact'] ?></td>
+                                        <td><?= $row['created_at'] ?></td>
+                                        <td>
+                                            <center><a href="" class="btn btn-sm btn-info text-white bg-dark">
+                                                    <i class="bi bi-eye"></i>
+                                                </a></center>
+                                        </td>
                                     </tr>
-                                </thead>
-                                <tbody>
-                                </tbody>
+                                <?php endwhile; ?>
+                            </tbody>
                         </table>
-        </center>
+                    <?php else: ?>
+                        <p class="text-muted">No Booking found.</p>
+                    <?php endif; ?>
+                    </tbody>
+                    </table>
+    </center>
     <div class="footers" style="margin-top: 5%;">
         &copy; All Rigth Reserved. 2025 TWEMS
     </div>

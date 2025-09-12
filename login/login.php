@@ -153,12 +153,12 @@
     </svg>
     <fieldset>
     <main class="form-signin w-100 m-auto">
-        <form action="../views/home.php" method="post"> 
+        <form action="../page/customer.php?function=login" method="post"> 
             <img class="mb-4" src="../img/logo.png" alt="" width="72" height="57">
             <center><h1 class="glow">Please sign in</h1></center>
             <div class="form-floating"> 
-                <input type="text" class="form-control" id="floatingInput" name="username" placeholder="Username" style="margin-bottom: 2%;"> 
-                <label for="floatingInput">Username</label> 
+                <input type="email" class="form-control" id="floatingInput" name="email" placeholder="Email" style="margin-bottom: 2%;"> 
+                <label for="floatingInput">Email</label>    
             </div>
             <div class="form-floating"> 
                 <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password"> 
@@ -171,7 +171,7 @@
                 </label> 
             </div> 
             <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button><br><br>
-            <a href="register.php">Register Here!</a>
+            <a href="../login/register.php">Register Here!</a>
 
             <center><p class="mt-5 mb-3 text-body-secondary">&copy; Alright Reserved 2050</p></center>
         </form>

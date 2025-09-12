@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../assets/dist/css/footer.css">
 
-<!-- Modal -->
+<!-- Settings Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -27,8 +27,6 @@
       </div>
     </div>
   </div>
-
-    
     <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

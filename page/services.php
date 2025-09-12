@@ -9,16 +9,14 @@
     
     session_start();
 
-    if (!isset($_SESSION['loggedIn_id'])) {
+   
 
         if (isset($_GET['function'])) {
             new ActiveServices($page);
         }else{
             new Services($page);
         }
-    }else{
-        header('location: ../page/admin.php');
-    }
+    
 
 
     //the default class
@@ -62,12 +60,6 @@
 			//run the method/behaviour
 			$this->{$_GET['function']}();        
 		}
-
-        function sendSms() {
-            $sendSms = $this->contactModel->sendSms($_POST);
-
-            header('location: ../views/contact.php');
-        }
- }
+    }
 
 ?> 
